@@ -153,7 +153,7 @@ footer>p {
   border-radius: 0.3em;
   color: whitesmoke;
   font-size: 1.5em;
-  background: rgb(#31abd1);
+  background-color: rgb(#31abd1);
   cursor: pointer;
   /*カーソルをポインターの形（かたち）にする*/
 }
