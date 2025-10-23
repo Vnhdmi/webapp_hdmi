@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 html {
     /* ブラウザのデフォルトが16px                        */
     /* デフォルトの16pxの代わりに1emが10pxになるように調整 */
@@ -16,12 +15,7 @@ body {
     line-height: 1.5;
     color: rgb(73, 72, 72);
     font-size: 1.6rem;
-    font-family: "Helvetica Neue",
-        Arial,
-        "Hiragino Kaku Gothic ProN",
-        "Hiragino Sans",
-        Meiryo,
-        sans-serif;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     text-align: center;
     /* background-image: url(../img/xxxxxxxx.JPG); */
     background-color: aliceblue;
@@ -77,7 +71,6 @@ h2 {
     border-radius: 0.5em 1.5em;
     background-color: rgba(245, 245, 245, 0.107);
     box-shadow: 0 0 0.5em rgba(73, 72, 72);
-
 }
 
 main>p {
@@ -98,7 +91,8 @@ a:hover {
 .container01-01,
 .container01-02,
 .container01-03,
-.container01-04 {
+.container01-04,
+.container01-05 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -146,7 +140,6 @@ a:hover {
         opacity: 0;
         transform: translateY(20px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
@@ -172,6 +165,7 @@ footer>p {
         background-size: auto 1000px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .container01 {
         width: 100%;
